@@ -1,7 +1,7 @@
 phonon4qt5-backend-gstreamer
 phonon-backend-gstreamer
 
-c1-netrunner-core
+c1-netrunner-zeronet-packages
 
 squashfs-tools-
 grub-pc-
@@ -9,4 +9,4 @@ muon-updater-
 muon-notifier-
 plasma-discover-
 xserver-xorg-input-libinput-
-desktop-base-
+desktop-base
