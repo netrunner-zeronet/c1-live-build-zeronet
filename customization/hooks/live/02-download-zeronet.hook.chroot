@@ -16,5 +16,5 @@ echo "I: Extracting ZeroNet Master..."
 tar xvfz $archiveName
 rm $archiveName 
 chmod a+w $installDir
-chmod a+w $installDir/$zeronetDirName
+chmod -R a+w $installDir/$zeronetDirName
 echo "I: ZeroNet Master installed."
