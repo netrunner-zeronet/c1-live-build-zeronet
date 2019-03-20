@@ -10,7 +10,7 @@ zeronetDirName="ZeroNet-master"
 
 echo "I: Getting dependencies for Zeronet Py3..."
 apt install -y libffi-dev pkg-config
-python3 -m pip -v install merkletools pyelliptic gevent-websocket bencode coincurve
+python3 -m pip -v install merkletools pyelliptic gevent-websocket bencode.py coincurve
 echo "I: Finished getting dependencies for Zeronet Py3"
 
 echo "I: Downloading ZeroNet Master..."
