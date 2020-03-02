@@ -2,6 +2,16 @@ phonon4qt5-backend-gstreamer
 phonon-backend-gstreamer
 
 c1-netrunner-zeronet-packages
+c1-netrunner-core
+#linux-headers-c1
+#linux-image-c1
+u-boot-tools
+# Should move into a meta package
+mali-x11
+xserver-xorg-video-mali
+odroid-boot-services
+c1-bootini
+c1-uboot
 
 squashfs-tools-
 grub-pc-
