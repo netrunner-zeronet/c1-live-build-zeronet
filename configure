@@ -26,6 +26,9 @@ export LIVE_IMAGE_NAME="netrunner-core-c1-zeronet-$VER"
 
 echo "I: Format is $FMT"
 
+# Hack taken from Neon Pinebook Bionic patch (we need to disable metadata_csum for older kernel 3.10
+sed -i 's/64bit/64bit,\^metadata_csum,uninit_bg/' /usr/lib/live/build/binary_hdd
+
 lb config \
  --architectures armhf \
  --archive-areas 'main contrib non-free' \
