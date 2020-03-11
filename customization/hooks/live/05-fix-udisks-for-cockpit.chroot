@@ -1,0 +1,2 @@
+echo "I: Creating udisks module directory"
+mkdir -p /usr/lib/arm-linux-gnueabihf/udisks2/modules
