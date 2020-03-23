@@ -2,7 +2,7 @@
 
 ## Do the magic to download zeronet and make it update itself
 
-zeronetUrl="https://github.com/HelloZeroNet/ZeroNet/archive/py3.tar.gz"
+zeronetUrl="https://github.com/HelloZeroNet/ZeroNet/archive/py3/ZeroNet-py3.tar.gz"
 installDir="/opt/zeronet"
 configFile="$installDir/current.conf"
 archiveName="zeronet-master.tar.gz"
